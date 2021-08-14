@@ -1,0 +1,116 @@
+body{
+     
+    margin: 0;
+    padding: 0;
+    background-image: url(fleur.jpg);
+    background-size: cover;
+     
+     
+}
+div .groupe{
+    position: absolute; top: 50%;
+    left: 50px;
+    transform: translate(-50% -50%);
+}
+
+.droite{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(98, 20, 172, 0.712);
+    position: relative; bottom: 150px;
+    top: 100px; 
+    left: 350px;
+    padding: 20px;
+    right: 100px;
+    color: white;
+    padding: 30px;
+}
+
+.groupe .droite .bloco{
+    position: absolute;left: 200px;
+    top: 246px;
+    background-color: turquoise;
+    padding: 15px 30px 15px 30px;
+    border-radius:5px ; 
+    text-decoration: none;
+    color: white;
+}
+.groupe .droite .bloca{
+    position: absolute;
+    padding: 15px 30px 15px 30px;
+    background-color:navy ;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+ 
+.groupe .droite a:link{
+    color: white;
+}
+.groupe .droite a:hover{background-color: transparent ; 
+    border: solid 1px  navy ;}
+
+.groupe .droite a:visited{
+    color: yellowgreen;
+}
+  
+
+ 
+ 
+
+
+.gauche{width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.9);
+    position: relative;left: 700px;
+             
+    bottom: 360px; padding: 30px;}
+
+
+      
+
+
+form{
+    padding: 30px;
+}
+form h2{
+    color: navy;
+
+}
+form .separation{width: 100%;
+height: 2px;
+background-color: transparent;}
+
+
+.pied  {
+      text-align: center;
+       
+}
+.pied input{
+    padding: 10px 80px 10px 80px;
+    color: white;
+    background-color:rgb(98, 20, 172);
+    
+    border-radius: 30px; 
+}
+.pied input:hover{ background-color: navy;}
+
+.boite input{
+    border: none;
+}
+ 
+
+    
+
+  
+    
+
+ 
+ 
+
+  
+ 
+     
+    
+
